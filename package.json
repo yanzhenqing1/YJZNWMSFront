@@ -1,0 +1,16 @@
+{
+    "id": "chaizj-billcard",
+    "name": "账单列表卡片",
+    "version": "1.0.1",
+    "description": "账单卡片列表",
+    "keywords": [
+        "账单",
+        "库篇"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

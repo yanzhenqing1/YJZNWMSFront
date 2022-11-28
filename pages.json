@@ -1,0 +1,177 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",
+		"qs-(.*)": "@/qs-ui/components/qs-$1/qs-$1.vue"
+	},
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/find/find",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/find/reply",
+		"style": {
+			"navigationBarTitleText": "留言详情"
+		}
+	}, {
+		"path": "pages/my/my",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}, {
+		"path": "pages/my/user/user",
+		"style": {
+			"navigationBarTitleText": "个人信息"
+		}
+	}, {
+		"path": "pages/account/updatePassword/findPassword",
+		"style": {}
+	}, {
+		"path": "pages/account/login/pwdlogin",
+		"style": {}
+	}, {
+		"path": "pages/account/register/mobileregister",
+		"style": {}
+	}, {
+		"path": "pages/account/updatePassword/updatePassword",
+		"style": {}
+	}, {
+		"path": "pages/account/login/smslogin",
+		"style": {}
+	}, {
+		"path": "pages/account/login/login",
+		"style": {}
+	}, {
+		"path": "pages/wms/warehouse",
+		"style": {
+			"navigationBarTitleText": "仓库列表"
+		}
+	}, {
+		"path": "pages/wms/in/order",
+		"style": {
+			"navigationBarTitleText": "待入库单列表"
+		}
+	}, {
+		"path": "pages/wms/in/detail",
+		"style": {
+			"navigationBarTitleText": "商品入库"
+		}
+	}, {
+		"path": "pages/wms/out/order",
+		"style": {
+			"navigationBarTitleText": "出库单"
+		}
+	}, {
+		"path": "pages/wms/out/detail",
+		"style": {
+			"navigationBarTitleText": "出库单详情"
+		}
+	}, {
+		"path": "pages/wms/pick/order",
+		"style": {
+			"navigationBarTitleText": "拣货单"
+		}
+	}, {
+		"path": "pages/wms/pick/detail",
+		"style": {
+			"navigationBarTitleText": "拣货单详情"
+		}
+	}, {
+		"path": "pages/wms/pick/pick",
+		"style": {
+			"navigationBarTitleText": "拣货操作"
+		}
+	}, {
+		"path": "pages/wms/check/order",
+		"style": {
+			"navigationBarTitleText": "盘点单"
+		}
+	}, {
+		"path": "pages/wms/check/detail",
+		"style": {
+			"navigationBarTitleText": "盘点单详情"
+		}
+	}, {
+		"path": "pages/wms/move/down",
+		"style": {
+			"navigationBarTitleText": "移库下架"
+		}
+	}, {
+		"path": "pages/wms/move/location",
+		"style": {
+			"navigationBarTitleText": "待移库位"
+		}
+	}, {
+		"path": "pages/wms/move/downDetail",
+		"style": {
+			"navigationBarTitleText": "下架详情"
+		}
+	}, {
+		"path": "pages/wms/move/up",
+		"style": {
+			"navigationBarTitleText": "移库上架"
+		}
+	}, {
+		"path": "pages/wms/move/upDetail",
+		"style": {
+			"navigationBarTitleText": "上架详情"
+		}
+	}, {
+		"path": "pages/info/info",
+		"style": {
+			"navigationStyle": "custom",
+			"app-plus": {
+				"bounce": "none" // 取消iOS回弹, 避免和下拉刷新冲突 (小程序无法取消)
+			}
+		}
+	}, {
+		"path": "pages/info/detail",
+		"style": {
+			"navigationStyle": "custom"
+		}
+	}],
+	"globalStyle": {
+		"pageOrientation": "portrait",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8",
+		"backgroundColorTop": "#F4F5F6",
+		"backgroundColorBottom": "#F4F5F6"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#D81E06",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "white",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabbar/tabbar-home-gray.png",
+			"selectedIconPath": "static/tabbar/tabbar-home-red.png",
+			"text": "首页"
+		}, 
+		// {
+		// 	"pagePath": "pages/find/find",
+		// 	"iconPath": "static/tabbar/tabbar-find-gray.png",
+		// 	"selectedIconPath": "static/tabbar/tabbar-find-red.png",
+		// 	"text": "消息"
+		// }, 
+		// {
+		// 	"pagePath": "pages/info/info",
+		// 	"iconPath": "static/tabbar/tabbar-info-gray.png",
+		// 	"selectedIconPath": "static/tabbar/tabbar-info-red.png",
+		// 	"text": "资讯"
+		// },
+		{
+			"pagePath": "pages/my/my",
+			"iconPath": "static/tabbar/tabbar-my-gray.png",
+			"selectedIconPath": "static/tabbar/tabbar-my-red.png",
+			"text": "我的"
+		}]
+	}
+}

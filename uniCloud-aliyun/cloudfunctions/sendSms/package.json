@@ -1,0 +1,6 @@
+{
+  "name": "uni-sms",
+  "extensions":{
+	"uni-cloud-sms":{} 
+  }
+}
